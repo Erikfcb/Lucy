@@ -1,0 +1,19 @@
+
+.diamondsDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.numberOfDiamonds {
+  color: #3c3c3c;
+  margin-top: 30px;
+  margin-left: 2.5%;
+  
+}
+
+.totalPrice {
+  color: #3c3c3c;
+  margin-top: 10px;  
+  margin-left: 2.5%;
+  margin-bottom: 20px;
+}

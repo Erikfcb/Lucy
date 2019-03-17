@@ -3,12 +3,14 @@
   border-collapse: collapse;
   width: 95%;
   margin: 50px auto;
+  word-wrap: break-word;
 }
 
 td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
+  max-width: 200px;
 }
 
 th {
@@ -17,5 +19,55 @@ th {
   text-align: left;
   background-color: #3c3c3c;
   color: white;
-  text-align: center;  
+  text-align: center;
+}
+
+.cameraIcon {
+  font-size: 2.5em;
+  color: #676767;
+  color: rgba(0, 0, 0, 0.571);
+}
+
+.certificateIcon {
+  font-size: 2.5em;
+  color: #676767;
+}
+
+.emptyTableCase {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 5em;
+  color: #6d6d6d;
+  animation: fadeInAndOut 2s infinite;
+}
+
+.diamondImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  animation: fadeIn 1s forwards;
+  opacity: 0;
+  cursor: pointer;  
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAndOut {
+  0% {
+    opacity: 0.1;
+  }
+  50%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
